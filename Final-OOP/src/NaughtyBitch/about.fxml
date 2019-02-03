@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NaughtyBitch.aboutController">
+   <children>
+      <VBox spacing="30.0">
+         <children>
+            <ImageView fx:id="javaWebsite" fitHeight="64.0" fitWidth="64.0" onMouseClicked="#handleEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/java-64.png" />
+               </image>
+            </ImageView>
+            <TextArea editable="false" focusTraversable="false" prefHeight="520.0" text="Product Version&#10;Project Eden 1.0&#10;&#10;Build Information&#10;Version 1.0&#10;Date: 2018-12-18&#10;&#10;JavaFX: JDK8 Built-in JavaFX&#10;Java Version: 1.8.0_171-b11, Oracle Corporation&#10;&#10;This product was made with love by a group of talented people.&#10;Written purely in Java, probably the best language ever alive.&#10;&#10;Credit&#10;&#10;We would like to say thanks to the following people:&#10;&#10;Mrs. Phuong - Our Professor and Tutor&#10;Bucky.R - JavaFX Tutor&#10;Tuan.TKQ - Tester&#10;Luong.DV - Graph&#10;Duc.DDM - Coder&#10;&#10;Special thanks to:&#10;&#10;Tung.NT - Graphics, Coder&#10;Our friend and colleague, Phuong.DNM - JavaFX and SceneBuilder Tutor&#10;&#10;And you&#10;&#10;Copyright(c) 2018, NaughtyBitch." wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</StackPane>
